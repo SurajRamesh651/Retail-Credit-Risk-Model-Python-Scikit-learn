@@ -1,0 +1,35 @@
+Dataset shape: (1000, 21)
+  checking_status  duration credit_history purpose  credit_amount  \
+0             A11         6            A34     A43           1169   
+1             A12        48            A32     A43           5951   
+2             A14        12            A34     A46           2096   
+3             A11        42            A32     A42           7882   
+4             A11        24            A33     A40           4870   
+
+  savings_status employment  installment_commitment personal_status  \
+0            A65        A75                       4             A93   
+1            A61        A73                       2             A92   
+2            A61        A74                       2             A93   
+3            A61        A74                       2             A93   
+4            A61        A73                       3             A93   
+
+  other_parties  ...  property_magnitude age  other_payment_plans housing  \
+0          A101  ...                A121  67                 A143    A152   
+1          A101  ...                A121  22                 A143    A152   
+2          A101  ...                A121  49                 A143    A152   
+3          A103  ...                A122  45                 A143    A153   
+4          A101  ...                A124  53                 A143    A153   
+
+  existing_credits   job num_dependents  own_telephone foreign_worker target  
+0                2  A173              1           A192           A201      0  
+1                1  A173              1           A191           A201      1  
+2                1  A172              2           A191           A201      0  
+3                1  A173              2           A191           A201      0  
+4                2  A173              2           A191           A201      1  
+
+[5 rows x 21 columns]
+target
+0    700
+1    300
+Name: count, dtype: int64
+
